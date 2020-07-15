@@ -4,6 +4,10 @@ public class Komiwojazer {
 	
 	private int[][] routesLengths;
 	private int numberOfCities;
+	private int[][] randomRoads;
+	private int[] sumOfRoads;
+	private int maxSumOfRoads;
+	private int minSumOfRoads;
 	
 	public Komiwojazer() {
 		
@@ -29,6 +33,40 @@ public class Komiwojazer {
 	public void setNumberOfCities(int numberOfCities) {
 		this.numberOfCities = numberOfCities;
 	}
+
+	public int[][] getRandomRoads() {
+		return randomRoads;
+	}
+
+	public void setRandomRoads(int[][] randomRoads) {
+		this.randomRoads = randomRoads;
+	}
+
+	public int[] getSumOfRoads() {
+		return sumOfRoads;
+	}
+
+	public void setSumOfRoads(int[] sumOfRoads) {
+		this.sumOfRoads = sumOfRoads;
+	}
+
+	public int getMaxSumOfRoads() {
+		return maxSumOfRoads;
+	}
+
+	public void setMaxSumOfRoads(int maxSumOfRoads) {
+		this.maxSumOfRoads = maxSumOfRoads;
+	}
+
+	public int getMinSumOfRoads() {
+		return minSumOfRoads;
+	}
+
+	public void setMinSumOfRoads(int minSumOfRoads) {
+		this.minSumOfRoads = minSumOfRoads;
+	}
+
+
 	
 	
 	
