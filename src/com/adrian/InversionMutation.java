@@ -15,9 +15,9 @@ public class InversionMutation implements Mutation {
 		
 		for (int x=0; x<length-1; x++) 
 		{
-			start = r.nextInt(length -2);
-			end = r.nextInt(length - start -1);
-			end += start+1;
+			start = r.nextInt(length -1);
+			end = r.nextInt(length - start);
+			end += start;
 
 			for (int y = start; y <= end; y++) {
 				
