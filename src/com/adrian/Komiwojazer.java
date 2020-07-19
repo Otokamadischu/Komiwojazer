@@ -8,6 +8,7 @@ public class Komiwojazer {
 	private int[] sumOfRoads;
 	private int maxSumOfRoads;
 	private int minSumOfRoads;
+	private int bestRoad;
 	
 	public Komiwojazer() {
 		
@@ -66,9 +67,13 @@ public class Komiwojazer {
 		this.minSumOfRoads = minSumOfRoads;
 	}
 
+	public int getBestRoad() {
+		return bestRoad;
+	}
 
-	
-	
-	
+	public void setBestRoad(int bestRoad) {
+		this.bestRoad = bestRoad;
+	}
+
 
 }
