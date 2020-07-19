@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class RouteRandom {
+public class RouteRandom implements Random {
 	
-	
-	public static int[][] random(int numberOfCities){
+	public int[][] random(int numberOfCities){
 
 		List<Integer> list = new ArrayList<Integer>();
 		int[][] randomRoads = new int[numberOfCities][numberOfCities];
@@ -25,5 +24,4 @@ public class RouteRandom {
 		
 		return randomRoads;
 	}
-
 }
